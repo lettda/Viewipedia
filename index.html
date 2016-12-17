@@ -13,7 +13,7 @@
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">VtP</a>
+				<a class="navbar-brand" href="#">Wiki</a>
 			</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">About</a></li>
@@ -22,20 +22,26 @@
 	</nav>
 	<!-- End navigattion bar -->
 	<div class="container container-fluid">
-		<h1>View The Pedia</h1>
+		<h1>Wikipedia API Viewer</h1>
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/inficons-round-brand-set-2/512/wikipedia-512.png"></a> <!-- view a random wikipedia article -->
 		<h3>Search Wikipedia</h3>
-		<p>
-			<a href="https://en.wikipedia.org/wiki/Special:Random">Feeling Bold?</a> <!-- view a random wikipedia article -->
-		</p> 
-		<input id="subjectSearch" type="text" name="Search" size="50" placeholder="Enter a Subject to Search"> <!-- input field to search wikipedia via API -->
-		<p>Click Icon to Search</p>
+		<input id="subjectSearch" type="text" name="Search" size="50" placeholder="Enter a Subject to Search">
+		<button class="btn btn-primary" type="submit" id="search">Search</button> <!-- input field to search wikipedia via API -->
 		
 	</div>
+
 	
 
+	<!-- Jquery CDN -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<!-- Author scripts -->
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<!--BootStrap JS minified CDN -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<div class="main-footer">
+		<footer>
+			Coppywright 2016
+		</footer>
+		</div>
 	</body>
 </html>
