@@ -13,7 +13,7 @@
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">VtP</a>
+				<a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1024px-Magnifying_glass_icon.svg.png"></a>
 			</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">About</a></li>
@@ -22,17 +22,20 @@
 	</nav>
 	<!-- End navigattion bar -->
 	<div class="container container-fluid">
-		<h1>Wikipedia API Viewer</h1>
-		<h3>Search Wikipedia</h3>
-		<p>
-			<a target="_blnk" href="https://en.wikipedia.org/wiki/Special:Random"><img src="https://cdn3.iconfinder.com/data/icons/inficons-round-brand-set-2/512/wikipedia-512.png"></a> <!-- view a random wikipedia article -->
-		</p> 
-		<input id="subjectSearch" type="text" name="Search" size="50" placeholder="Enter a Subject to Search"> <!-- input field to search wikipedia via API -->
-		<button class="btn btn-primary">Search</button>
-		<ul id="output">
+		<div class="col-md-12" id="searchUi">
+			<h1>Wikipedia API Viewer</h1>
+			<h3>Search Wikipedia</h3>
+			<p>
+				<a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random"><img src="https://cdn3.iconfinder.com/data/icons/inficons-round-brand-set-2/512/wikipedia-512.png"></a> <!-- view a random wikipedia article -->
+			</p> 
+			<input id="subjectSearch" type="text" name="Search" size="50" placeholder="Enter a Subject to Search"> <!-- input field to search wikipedia via API -->
+			<button class="btn btn-primary">Search</button>
+		</div>
+		<div class="col-md-12">
+			<ul id="output"> <!--Location of Article information prepended to HTML-->
 			
-		</ul>
-		
+			</ul>
+		</div>
 	</div>
 	
 
