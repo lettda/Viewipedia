@@ -22,17 +22,22 @@
 	</nav>
 	<!-- End navigattion bar -->
 	<div class="container container-fluid">
-		<h1>View The Pedia</h1>
+		<h1>Wikipedia API Viewer</h1>
 		<h3>Search Wikipedia</h3>
 		<p>
-			<a href="https://en.wikipedia.org/wiki/Special:Random">Feeling Bold?</a> <!-- view a random wikipedia article -->
+			<a target="_blnk" href="https://en.wikipedia.org/wiki/Special:Random"><img src="https://cdn3.iconfinder.com/data/icons/inficons-round-brand-set-2/512/wikipedia-512.png"></a> <!-- view a random wikipedia article -->
 		</p> 
 		<input id="subjectSearch" type="text" name="Search" size="50" placeholder="Enter a Subject to Search"> <!-- input field to search wikipedia via API -->
-		<p>Click Icon to Search</p>
+		<button class="btn btn-primary">Search</button>
+		<ul id="output">
+			
+		</ul>
 		
 	</div>
 	
 
+	<!-- Jquery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<!-- Author scripts -->
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<!--BootStrap JS minified CDN -->
