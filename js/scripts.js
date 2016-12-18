@@ -13,7 +13,6 @@ $(document).ready(function() {
     		success: function(data) {
 
        			for (var i = 0; i < data[1].length; i++) {
-       				$("#output").prepend("<li><a href= "+ data[3][i]+"+>" +data[1][i] +"</a><p>"+data[2][i]+"</p></li>") //Prepend Article information to HTML list (Article link as hyperlink connected to Article header, Article summary follow underneath )
        				$("#output").prepend("<li class=" + article+ ">" +"<a href= "+ data[3][i]+"+>" +data[1][i] +"</a><p>"+data[2][i]+"</p></li>") //Prepend Article information to HTML list (Article link as hyperlink connected to Article header, Article summary follow underneath )
        				$("#searchUi").fadeOut("slow",function(){
 
