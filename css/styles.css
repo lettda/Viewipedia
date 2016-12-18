@@ -1,12 +1,6 @@
 /* Container Styles */
 body {
-<<<<<<< HEAD
 	background-color: #183056;
-=======
-	background-color: ;
-	
-
->>>>>>> origin/master
 }
 div {
 	text-align: center;
@@ -43,22 +37,18 @@ h1, h3 {
 }
 
 h1 {
-<<<<<<< HEAD
 	font-size: 4em;
 	margin-top: 2%;
-=======
 	font-size: 5em;
-	margin-top: 6%;
->>>>>>> origin/master
+	margin-top: 3%;
+
 }
 h3 {
 	font-size: 3rem;
-<<<<<<< HEAD
 	margin-bottom: 2%;
-=======
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	margin-top: 5%;
->>>>>>> origin/master
+
 }
 
 img {
@@ -98,7 +88,6 @@ input {
 	height: 40px;
 	border-radius: 10px;
 }
-<<<<<<< HEAD
 .btn-primary {
 	display: block;
 	margin-right: auto;
@@ -107,31 +96,3 @@ input {
 	width: 10%;
 }
 /*---------------------*/
-=======
-img {
-	height: 16%;
-	width: 16%;
-	margin-top: 5%;
-}
-/* Search Button Styles */
-.btn-primary {
-	width: 100px;
-	height: 40px;
-	text-align: center;
-	border-radius: 7px;
-	border: 1px solid white;
-}
-/*----------------------*/
-/* nav styles */
-.navbar-brand {
-	color: initial;
-	text-align: center;
-	font-family: cursive;
-	font-size: 3rem;
-}
-.nav {
-	color: initial;
-	font-size: 2rem;
-}
-/*----------------*/
->>>>>>> origin/master
